@@ -1,0 +1,253 @@
+.contact{
+    width: 100%;
+}
+.contact .main{
+    margin-top: 35px; 
+}
+#contact-map{
+    height: 430px;
+}
+
+#contact-map .BMap_cpyCtrl {
+    display: none;
+}
+#contact-map .anchorBL {
+    display: none;
+}
+.ct-hot{
+    width: 100%;
+    margin: 0 0 28px 0;
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+}
+.ct-hot .left{
+    margin-top: 35px;
+    width: 420px;
+    padding: 22px 0px 28px 18px;
+    background: #f4f4f4; 
+    border: 1px solid #ebebeb;
+    flex-grow: 0;
+    border-right: none;  
+}
+.ct-hot .left h2{
+    font-size: 20px;
+    color: #010101;
+    margin-bottom: 23px; 
+    font-weight: bold;
+}
+.ct-hot .left .phoneNum{
+    margin-bottom: 12px;
+}
+.ct-hot .left .phoneNum i{
+    font-size: 46px;
+    
+    color: #d40000;
+    line-height: 46px;
+}
+.ct-hot .left .phoneNum span{
+    display: inline-block;
+    font-size: 32px;
+    
+    color: #d40000;
+    line-height: 46px;
+}
+.ct-hot .left h5{
+    font-size: 14px;
+    color: #676767;
+}
+.ct-hot .right{
+    margin-top: 35px;
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+    border: 1px solid #ebebeb; 
+    height: 174px;
+    flex-grow: 1; 
+}
+.ct-hot .right .wechat{
+    margin: 0 78px;  
+}
+.ct-hot .right .wechat em{
+    width: 105px;
+}
+.ct-hot .right .wechat h5{
+    font-size: 14px;
+    text-align: center;
+}
+.ct-hot .right .share h6{
+    font-size: 14px;
+    margin-bottom: 25px; 
+}
+.ct-address{
+    border: 1px solid #ebebeb;
+    height: 215px;
+    padding: 12px 22px; 
+    margin-bottom: 55px; 
+}
+.ct-address h2{
+    font-size: 16px;
+    margin-bottom: 20px; 
+    font-weight: bold;
+}
+.ct-address h5{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.message{
+    width: 100%;
+}
+.message .main{
+    margin: 52px 0 30px 0; 
+}
+.message .main>p{
+    color: #005bac;
+    font-size: 18px;
+    margin-bottom: 25px; 
+    padding-left: 16px;
+}
+.message .main .top{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap: wrap;
+}
+.message .main .top .container{
+    padding: 0 16px;
+    width: 33.33333%;
+    position: relative;
+    margin-bottom: 30px;
+}
+.message .main .top .container input{
+    
+    padding-left: 132px;
+}
+.message .main .container input{
+    width: 100%;
+    border: 1px solid #D2D0D1;
+    height: 46px;
+    line-height: 44px; 
+}
+.message .main .top .container span{
+    
+    width: 132px;
+    text-align: center;
+}
+.message .main .container span{
+    display: block;
+    height: 44px;
+    line-height: 44px;
+    text-align: right;
+    font-size: 14px;
+    color: #333;
+    position: absolute;
+    top: 0;
+    left: 16px;
+    z-index: 5;
+}
+.message .main .mid{
+    width: 100%;
+    padding: 0 16px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 30px;
+}
+.message .main .mid span{
+    
+    width: 121px;
+    text-align: center;
+}
+.message .main .mid input{
+    
+    padding-left: 121px;
+}
+.message .main .down {
+    width: 100%;
+    padding: 0 16px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 30px;
+}
+.message .main .down textarea{
+    width: 100%;
+    border: 1px solid #D2D0D1;
+    height: 250px;
+    text-indent: 124px;
+    padding: 10px;
+}
+.message .main .down span{
+    width: 124px;
+}
+.btn-container{
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+}
+.btn-container .submit{
+    width: 126px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    background-color: #005BAC;
+    border: none;
+    margin-right: 12px;
+    margin-left: 16px;
+    cursor: pointer;
+}
+.btn-container .reset{
+    width: 126px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    background-color: #F3A51F;
+    border: none;
+}
+
+.help-block{
+    position: absolute !important;
+}
+.form-control-feedback{
+    right: 16px !important;
+    height: 46px;
+    line-height: 46px;
+}
+
+
+
+@media screen and (min-width:1200px){
+
+}
+@media screen and (max-width:1200px){
+    
+}
+@media screen and (max-width:992px){
+    .message .main .top .container{
+        width: 50%;
+    }
+}
+@media screen and (max-width:768px){
+    .top-banner-pro .wrapper{
+        height: 200px;
+    }
+    .ct-hot{
+        flex-direction: column;
+    }
+    .ct-hot .left{
+        width: 100%;
+        border-right: 1px solid #ebebeb; 
+    }
+    .ct-hot .right{
+        width: 100%;
+    }
+    .message .main .top .container{
+        width: 100%;
+    }
+}
+@media screen and (max-width:480px){
+    
+}

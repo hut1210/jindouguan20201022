@@ -1,0 +1,90 @@
+.video-intro video{
+    width: 900px;
+    
+    
+    height: 480px;
+    
+}
+
+.J_prismPlayer-dimensions {
+    width: 900px;
+    
+    height: 480px;
+}
+
+.video-intro article {
+    padding: 20px 0 10px;
+    color: #666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-intro article section p {
+    min-height: 50px;
+    
+    
+    padding: 15px 10px;
+    text-align: center;
+    margin-bottom: 30px;
+
+    font-size: 20px;
+    line-height: 35px;
+    
+    color: #d40000;
+    font-family: "宋体";
+    font-weight: 700;
+}
+
+
+
+@media screen and (min-width:1200px){
+
+}
+@media screen and (max-width:1200px){
+
+    .video-js .vjs-tech {
+        position: relative;
+        display: flex;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        
+    }
+    section{
+        width: 100%;
+    }
+    .J_prismPlayer-dimensions {
+        width: 100%;
+        height:100%;
+    }
+
+
+}
+@media screen and (max-width:992px){
+
+    .J_prismPlayer-dimensions {
+        width: 748px;
+        height: 350px;
+    }
+
+}
+@media screen and (max-width:768px){
+    .J_prismPlayer-dimensions {
+        width: 100%;
+        height: 350px;
+    }
+    section{
+        z-index: 1;
+    }
+}
+@media screen and (max-width:480px){
+    .video-intro .wrapper{
+        padding:0 0;
+    }
+    .J_prismPlayer-dimensions {
+        width: 100%;
+        height: 300px;
+    }
+}

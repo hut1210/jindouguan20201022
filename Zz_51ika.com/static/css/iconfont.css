@@ -1,0 +1,40 @@
+@font-face {font-family: "iconfont";
+  src: url('../font/iconfont-1566465915257.eot'); 
+  src: url('../font/iconfont-1566465915257.eot#iefix') format('embedded-opentype'), 
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAASsAAsAAAAACUgAAAReAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDTgqFMIREATYCJAMcCxAABCAFhG0HVxsDCMgOJRGRwABgYEFgPHytoe/v7kH2AuwSBSgTBzg+CnwJFaraqlaojm+NYGPa8Sx0Jv//b+oFKpTUhc6kIpLMJOlEIw9CjBxCJkrdknbu8rnPnfo8l+O7Kwt7Pr+d5TTmsDkpGpPiOKCA9gbKogAXSIAYiKcCns34ewIvE6gWjYCdyscpgVRIswLxkGPVQPosSkpx6IU2ZmMR78BVn97gdwC8NT8f/yEpSJImk646u12qg4JfxI/7hNQnmZ0lkOpzQdhGxhZQiGexnqcIO7aFUD/HuzgFql6SfhHfqO9/ftzv6+PL9vj+WzGiP3hVNWocrSQrGkG0JM0omJfxll+EKnG1HjBJ0FKgyfz+bVKg/QOahj/3ZWum6XT3OJ983wFiEiTWtlgIhTkoDWPzU3zxgAAZdoOQpSEPt3X8gz56/loDzB14/lH15AnfGHL8fozTEdh9omQLdewU5ugK2nmTbaCePSt78kS55UworD0razwe8vSpyulsDNr2rGzd5fRpz5OdMc6Q7qCQnU9VT59M6pKCnIyQ58+n7UwtMGzVKWrLGenswO2nI4L52/dj2PtzyrpMjuCXqJrRXVbJxji6AF4HIZ0xuDuEdZYvpRoCdYyDokhXEOpuDHY41H0eNHwYBrvgmUratVIeLKkgfOd6s0t8qNsnpfS7VG/34DFtZAN++fkmIC5Iq27tZdctKdjaXsxPmowV1waO2H/9KYYtdfw8uQHfgv+9TPdcnem1AfvbP8BnT0QpZ1RE+ae6wu6ZxUcpfx3yfHCR7HTLqOD5Bf6+K7LtpJycELHwqp87HesbWxA72xRcPCw40n6hoVbWmR78wZHt+CCNRms9X2+LbOCuh23E//MjhhrPVS7DMPBsxTBDcnJoxY1tjTgddn1LWHkq9gqDq55L85IqXceTSjaU0pTkeNfKpNCgk9GQfiyNJeURNRgkJ8e6pg+Y93VP9B5t8IB02DRBcUrx40jTg1/IazryA1aQzskfCeD6Zt5GTAe4lgrk6Mxc0xXgM+HSL3EgPyQm3z7f8XPeJH6eT86/fijgR5W01FSU9/XSftK6WaQ5m8pXLlm78q6slgh0XnmekVBV3CaBae/q880B1xV6UQoknQVkvSWiMLfQGGyj1TtAtUmxfTBDQIgygg3VhDBpP5Jxn5BNuksU5ls05v1FazIIVOcRcOBgJTiqWEBqEelozWKa0/IWRrGLlFU8BbF2k1rwyk1OGRJsXJBOjEsIJhXIgoQ6ltgWsEmiyNCMwJtpOV2HTCaetgq8AWnFOL0oWrPi45m4G8VpeTNQTggQNRGiQ9NYjMbR4lkwencRFXr/FAjLzkRNSCn7ES6DCGy4/mmJ4iTkIBQaS66yfRluswAriUjEsNMYAp4ZTQ4XYpJjPJo1fpwBoiWKoy8RscoSz7Rj8mri2teZt3MPVNKdukiRo0QTbXTRK3d5M3Jn1Ba9nUt0MSLG7ipwrF500fELLW42PW9fjAAAAAA=') format('woff2'),
+  url('../font/iconfont-1566465915257.woff') format('woff'),
+  url('../font/iconfont-1566465915257.ttf') format('truetype'), 
+  url('http://51ika.com/template/home/web/assets/libs/aliyun-icon/iconfont.svg?t=1566465915257#iconfont') format('svg'); 
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home:before {
+  content: "\e8cf";
+}
+
+.icon-fanhui1:before {
+  content: "\e609";
+}
+
+.icon-kefu:before {
+  content: "\e60a";
+}
+
+.icon-right:before {
+  content: "\e7eb";
+}
+
+.icon-down:before {
+  content: "\e7ec";
+}
+
+.icon-shouye:before {
+  content: "\e603";
+}

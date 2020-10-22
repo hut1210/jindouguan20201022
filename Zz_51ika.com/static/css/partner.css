@@ -1,0 +1,165 @@
+.partner{
+    width: 100%;
+}
+
+.partner .main{
+
+    margin:30px 0 50px 0;
+
+}
+
+.partnerleft{
+    background-color: #ececec;
+    padding:10px 20px 10px 10px;
+    border-radius: 4px;
+}
+
+.partnerleft h5{
+    font-size:20px;
+}
+
+.sidebar{
+    width:265px;
+    float: left;
+}
+
+.partnerleft ul li a {
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 5%;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.pa_top{
+    margin:0 0 10px 0;
+}
+
+.pa_top .topname{
+    font-size:20px;
+    width:100%;
+    border-bottom: 2px solid #14376F;
+    cursor: pointer;
+    margin-bottom:10px;
+}
+
+.pa_top .topname:hover {
+     color: #10376b;
+ }
+
+.pa_top img{
+    width:100%;
+    padding:20px 0 0 10px;
+}
+
+.partner .r-detail h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    padding: 18px 0;
+    border-top: 1px solid #e8e8e8;
+}
+
+.partner .r-detail h2 .bname {
+    height: 20px;
+    line-height: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-indent: 0;
+    margin-top: 15px;
+    padding-left: 15px;
+    border-left: 4px solid #ff6000;
+}
+
+.r-detail{
+    width:800px;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+
+.r-detail h2{
+        width:100%;
+}
+.r-detail h4{
+    width:420px;
+    font-size: 15px;
+    color: #333;
+    padding: 0px 0px 10px 0px;
+    line-height:23px;
+}
+.r-detail .bbottom{
+    width:100%;
+    font-size: 15px;
+    color: #333;
+    padding: 0px 0px 10px 0px;
+    line-height:23px;
+}
+
+.sidebar .a_js1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebar .a_js1 h5{
+  font-size:15px;
+}
+.sidebar .a_js1 img{
+    width: 18px;
+}
+.sidebar .a_js_jia{
+    display: flex;
+}
+.sidebar .a_js_jian{
+    display: none;
+}
+.sidebar  .a_txt2 a{
+    border-top:1px solid #c8c8c8;
+}
+
+
+
+
+
+@media screen and (min-width:1200px){
+
+}
+@media screen and (max-width:1100px){
+    .sidebar{
+        width:100%;
+    }
+    .sidebar .pa_top{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sidebar .pa_top img{
+        display: none;
+    }
+    .r-detail{
+        width:100%;
+    }
+}
+@media screen and (max-width:992px){
+    
+}
+@media screen and (max-width:768px){
+    .top-banner-pro .wrapper{
+        height: 200px;
+    }
+    .partner .r-detail h2{
+        padding: 10px 0;
+    }
+    .partner .r-detail{
+        margin-top:10px;
+    }
+}
+@media screen and (max-width:480px){
+
+}
